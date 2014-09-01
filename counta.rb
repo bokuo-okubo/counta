@@ -3,7 +3,6 @@
 class Counta
 	def initialize 
 		@ary = %w(1 2 3)
-		@ary2 = []
 		printNote
 		input =""
 		@pointa = -1
