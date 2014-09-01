@@ -3,10 +3,10 @@
 class Counta
 	def initialize 
 		@ary = %w(1 2 3)
-		printNote
 		input =""
 		@pointa = -1
 		
+        printNote
 		while input != "quit"
 			input = getInput
 		end
