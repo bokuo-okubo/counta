@@ -3,9 +3,11 @@
 class Counta
 	def initialize 
 		@ary = %w(1 2 3)
-		input =""
 		@pointa = -1
+
 		printNote
+		
+		input =""
 		while input != "quit"
 			input = getInput
 		end
@@ -53,4 +55,4 @@ class Counta
 end
 
 ###########
-count = Counta.new
+Counta.new
