@@ -5,8 +5,7 @@ class Counta
 		@ary = %w(1 2 3)
 		input =""
 		@pointa = -1
-		
-        printNote
+		printNote
 		while input != "quit"
 			input = getInput
 		end
